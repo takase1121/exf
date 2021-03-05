@@ -1,0 +1,25 @@
+{
+  "name": "exf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.test.js --after=test/post.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "tap": "^14.11.0"
+  },
+  "dependencies": {
+    "lmdb-store": "^1.1.11",
+    "nanoid": "^3.1.20",
+    "ws": "^7.4.3"
+  }
+}
